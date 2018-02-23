@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;language=en" type="text/javascript"></script>
+<script src="https://rawgithub.com/darkskyapp/skycons/master/skycons.js"></script>
+
+<h1 class="text-center">Weather App</h1>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col md-col-4"></div>
+		<div class="col md-col-6">
+			<h3 id="loc" class="text-center">Location</h3>
+			<h3 id="temp" class="text-center">Temp #</h3>
+
+			<canvas id="icon" class="center-block" height="64" width="64">ICON</canvas><br>
+			<h3 id="humidity" class="text-center">Humidity: #</h3>
+			<h3 id="wind" class="text-center">Wind: #</h3>
+			<h3 id="precip" class="text-center">Precip: #</h3><br>
+			
+			<button type="button" class="btn btn-secondary center-block">Convert Temp</button>
+		</div>
+	<div class="col md-col-4"></div>
+	</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
